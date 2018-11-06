@@ -1,12 +1,11 @@
-endpoints.health.enabled: true
-management.endpoints.web.exposure.include=*
-
+management.endpoint.env.enabled: true
+management.endpoint.health.enabled: true
 spring:
   jpa:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
-  datasource:    
+  datasource:
     url: jdbc:h2:file:C:\dev\workspace\h2-db;AUTO_SERVER=TRUE;DB_CLOSE_ON_EXIT=FALSE
-    username: 
-    password: 
+    username: null
+    password: null
