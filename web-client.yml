@@ -1,6 +1,6 @@
 endpoints.health.enabled: true
 management.endpoints.web.exposure.include=hystrix.stream
-
+management.endpoints.web.base-path=/
 ribbon:
   serverListRefreshInterval: 1000
   ConnectTimeout: 6000
