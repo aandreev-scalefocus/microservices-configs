@@ -1,3 +1,4 @@
+server.port: 9601
 spring:
   jpa:
     hibernate:
