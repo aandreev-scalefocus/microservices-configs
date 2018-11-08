@@ -14,3 +14,6 @@ feign.hystrix.enabled: true
 hazelcast.max.no.heartbeat.seconds: 6
 
 rest-server.name: rest-server
+
+zuul.routes.employees.path: /employees/** 
+zuul.routes.employees.service-id: rest-server
