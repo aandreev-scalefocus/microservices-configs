@@ -12,4 +12,4 @@ feign.hystrix.enabled: true
 zuul.routes.employees.path: /employees/** 
 zuul.routes.employees.service-id: rest-server
 
-rest-server.name: rest-servertwo
+rest-server.name: rest-server
