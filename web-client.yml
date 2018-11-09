@@ -9,8 +9,6 @@ hystrix.command.default.execution.isolation:
 
 feign.hystrix.enabled: true
 
-hazelcast.max.no.heartbeat.seconds: 6
-
 zuul.routes.employees.path: /employees/** 
 zuul.routes.employees.service-id: rest-server
 
