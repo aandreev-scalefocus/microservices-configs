@@ -1,1 +1,1 @@
-spring.cloud.refresh.enabled=false
+spring.cloud.refresh.enabled: false
