@@ -3,4 +3,4 @@ eureka.client.service-url.defaultZone: http://localhost:7001/eureka
 eureka.client.registry-fetch-interval-seconds: 20
 eureka.instance.lease-renewal-interval-in-seconds: 20
 management.endpoints.web.exposure.include: health,info,env,bus-refresh,hystrix.stream
-log4j.rootLogger: WARN
+log4j.rootLogger: NONE
