@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: ${eureka.url:localhost}
+    hostname: ${discovery.uri:localhost}
     lease-renewal-interval-in-seconds: 2
     lease-expiration-duration-in-seconds: 2
   server:
