@@ -5,8 +5,8 @@ eureka.instance.lease-renewal-interval-in-seconds: 20
 management.endpoints.web.exposure.include: health,info,env,bus-refresh,hystrix.stream
 logging.level.root: WARN
 
-queue.name=messagequeue
-fanout.exchange=messagequeue-exchange
+queue.name: messagequeue
+fanout.exchange: messagequeue-exchange
 spring.rabbitmq.host: localhost
 spring.rabbitmq.port: 5672
 spring.rabbitmq.username: guest
