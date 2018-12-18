@@ -6,6 +6,7 @@ management.endpoints.web.exposure.include: health,info,env,bus-refresh,hystrix.s
 logging.level.root: WARN
 
 queue.name: messagequeue
+dead.letter.queue.name: deadletterqueue
 fanout.exchange: messagequeue-exchange
 spring.rabbitmq.host: localhost
 spring.rabbitmq.port: 5672
