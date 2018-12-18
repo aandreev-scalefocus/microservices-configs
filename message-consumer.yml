@@ -1,7 +1,6 @@
 spring:
   rabbitmq:
     listener:
-      default-requeue-rejected: false
       retry:
         enabled: true
         initial-interval: 2000
