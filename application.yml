@@ -8,9 +8,6 @@ logging.level.root: WARN
 spring:
   cloud:
     stream:
-      bindings:
-        rabbitmq:
-          group: message.group
       binders:
         rabbitmq:
           type: rabbit
