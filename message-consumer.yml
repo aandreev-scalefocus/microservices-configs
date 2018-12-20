@@ -5,3 +5,4 @@ spring:
         input:
           destination: message.exchange
           binder: rabbitmq
+          group: message.group
