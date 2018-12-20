@@ -6,3 +6,6 @@ spring:
           destination: message.exchange
           binder: rabbitmq
           group: message.group
+          consumer:
+            auto-bind-dlq: true
+            republish-to-dlq: true
