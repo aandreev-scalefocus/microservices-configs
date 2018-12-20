@@ -5,10 +5,16 @@ eureka.instance.lease-renewal-interval-in-seconds: 20
 management.endpoints.web.exposure.include: health,info,env,bus-refresh,hystrix.stream
 logging.level.root: WARN
 
-#queue.name: messagequeue
-#dead.letter.queue.name: deadletterqueue
-#fanout.exchange: messagequeue-exchange
-#spring.rabbitmq.host: localhost
-#spring.rabbitmq.port: 5672
-#spring.rabbitmq.username: guest
-#spring.rabbitmq.password: guest
+spring:
+  cloud:
+    stream:
+      binders:
+        rabbitmq:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
