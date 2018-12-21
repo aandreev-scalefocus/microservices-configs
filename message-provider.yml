@@ -5,4 +5,3 @@ spring:
         output:
           destination: message.exchange
           binder: rabbitmq
-          content-type: application/json
